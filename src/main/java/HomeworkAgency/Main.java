@@ -7,7 +7,7 @@ public class Main {
         TourAgency.addTour("Russia", "10", "airplane", "100000", tours);
         TourAgency.addTour("China", "10", "airplane", "120000", tours);
         TourAgency.addTour("France", "10", "airplane", "150000", tours);
-        TourAgency.printALlTours(tours);
+        TourAgency.printTours(tours);
         TourAgency.printTheCheapestTour(tours);
 
     }
